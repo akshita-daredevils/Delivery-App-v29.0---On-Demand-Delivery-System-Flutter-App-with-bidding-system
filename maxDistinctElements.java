@@ -10,7 +10,7 @@ class Solution {
             long start = (long) num - k;
             long end = (long) num + k;
 
-            if (curr < start) curr = start;  // jump to start of range
+            if (curr < start) curr = start;  // jump to start of ranges
             if (curr <= end) {
                 count++;
                 curr++;  // assign and move to next possible number
